@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
+    
+    <title>Dom's Maths Game</title>
+    <link rel="shortcut icon" href="/favicon-calculator.png">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +12,39 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/application.js"></script>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
     <link href="css/custom.css" rel="stylesheet">
-  </head>
-  <body>
 
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  
+  </head>
+  
+  <body>
+  
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Test Your Mathematical Skills!</h1>
+        <p>Take on the 10 second Math Test...</p>
+        <p><a id="play" class="btn btn-success btn-lg" role="button">Play</a></p>
+      </div>
+
+      <h1 class="col-sm-4 col-sm-offset-4 text-center"><span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span><span id="timer">10</span></h1>
+      <h1 id="question" class="col-sm-4 col-sm-offset-4 text-center"></h1>
+      <div class="col-sm-2 col-sm-offset-5 form-group">
+        <input id="user-input" type="text" placeholder="Click Play to Start..." disabled class="form-control">
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/application.js"></script>
+  
   </body>
+
 </html>
