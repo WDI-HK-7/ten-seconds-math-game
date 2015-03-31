@@ -8,6 +8,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/application.js"></script>
 
@@ -15,6 +24,43 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-
+    <nav class="row">
+      <h1 class="col-xs-6 text-right">
+        10 |
+      </h1>
+      <h5 class="col-xs-6">
+        SECOND
+        <br>
+        MATH
+        <br>
+        GAME
+      </h5>
+    </nav>
+    <div class="container"> 
+      <div class="jumbotron">
+        <div class=".divCircle">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h1>
+                <span id="clock">10 seconds left</span>
+              </h1>
+              <div>
+                <h1>
+                <span id="question"></span>
+                </h1>
+              </div>
+              <div>
+                <input id="userInput" placeholder="answer">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <center>
+      <button type="button" aria-label="Left Align">
+      <span class="glyphicon glyphicon-play" aria-hidden="true">       PLAY THE GAME</span>
+      </button>
+      </center>
+    </div> 
   </body>
 </html>

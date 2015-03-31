@@ -1,0 +1,37 @@
+h1 {
+    font-family: Arial, sans serif;
+    font-size: 100px;
+    font-weight: 5px;
+    margin-top: 17px;
+    color: #F2EBA1; 
+}
+
+.col-xs-6 {
+    padding-right: 0px;
+}
+
+h5 {
+    font-family: Arial, sans serif;
+    font-size: 26px;  
+    margin-top: 40px;
+    color: #F2EBA1;  
+}
+
+button {
+    vertical-align: right;
+    margin: 5px;
+    padding: 10px 40px 10px;
+    font-size: 14px;
+    background-color: #F2EBA1;
+    font-weight: normal;
+    text-shadow: 1px 1px #F2EBA1;
+    color: grey;
+    border-radius: 1px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #F2EBA1;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
