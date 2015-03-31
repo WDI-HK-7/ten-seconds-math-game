@@ -1,23 +1,19 @@
 // $(document).ready(function(){
 
-  var game = {
-    operation: ['+'],
-    maxNumber: 100,
-    maxInitialTime: 0,
-    timeIncrement: 1
-  }
 
-  var randomNumberOne = Math.ceil(Math.random() * game.maxNumber);
-  var randomNumberTwo = Math.ceil(Math.random() * game.maxNumber);
+  // generate random number 
+  
+  var randomNumberOne = Math.ceil(Math.random() * 100);
+  var randomNumberTwo = Math.ceil(Math.random() * 100);
 
-  function generateSum() {
-    return (randomNumberOne + game.operation + randomNumberTwo);
+  function sumAnswer() {
+    return (randomNumberOne "+" randomNumberTwo);
     console.log(randomNumberOne + randomNumberTwo);
   };
 
   // store the question and answer 
   var userInput = $('#userInput');
-  var answer = randomNumberOne + randomNumberTwo;
+  var answer = sumAnswer();
 
   // compare if userInput is correct
   function compare() {
