@@ -11,10 +11,50 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/application.js"></script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <title>10 Seconds Math Game</title>
   </head>
   <body>
-
+    <div class="container-fluid">
+      <div class="content col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="page-header">
+        <h1>The <span class="ten">10</span> Seconds Math Game</h1>    
+        </div>
+        <div class="checkbox">
+          (UNDER CONSTRUCTION) Choose Your Operators: 
+          <label>
+            <input type="checkbox" id="addition"> +
+          </label>
+          <label>
+            <input type="checkbox" id="minus"> -
+          </label>
+          <label>
+            <input type="checkbox" id="multiply"> x
+          </label>
+          <label>
+            <input type="checkbox" id="divide"> ÷
+          </label>
+        </div>
+        <div class="question-wrapper jumbotron">
+          <h1><span class="time-left">10s</span></h1>
+        <div class="restart hidden">
+          <br>
+          <button class="btn btn-success">Try Again?</button>
+        </div>
+          <br>
+          <p>Answer This:</p>
+          <h1 class="expression"><span class="question">Question</span>? </h1>
+        <br>
+        <form>
+          <input type="text" class="form-control" id="user-input" placeholder="Your Answer Here">
+        </form>
+        </div>
+<!--         <div class="alert alert-success" role="alert">
+        Awesome Possum.
+        </div> -->
+      </div>
+    </div>
   </body>
 </html>
